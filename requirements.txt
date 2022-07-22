@@ -1,5 +1,5 @@
 gunicorn
-flask
+flask[async]
 shazamio
 
 
