@@ -15,7 +15,6 @@
         },
         "API_KEY": {
             "description": "API Key; Use this API key in Game Music Scrobbler",
-            "value": "",
             "generator": "secret"
         }
     },
