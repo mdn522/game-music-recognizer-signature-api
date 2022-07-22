@@ -1,0 +1,29 @@
+{
+    "name": "Game Music Recognizer Signature API, Python",
+    "description": "",
+    "keywords": [
+        "shazam",
+        "python",
+        "flask"
+    ],
+    "repository": "https://github.com/mdn522/game-music-recognizer-signature-api",
+    "success_url": "/welcome",
+    "env": {
+        "FLASK_SECRET_KEY": {
+            "description": "Flask Secret Key",
+            "generator": "secret"
+        },
+        "API_KEY": {
+            "description": "API Key; Use this API key in Game Music Scrobbler",
+            "value": "",
+            "generator": "secret"
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/python"
+}
